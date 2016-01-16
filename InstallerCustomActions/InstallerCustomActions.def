@@ -1,0 +1,35 @@
+LIBRARY InstallerCustomActions
+;DESCRIPTION 'Custom action library for SENV installer'
+EXPORTS
+	TestCustomAction
+	ExecuteCommand
+	RunCmd
+	RunCmdAsUser
+	RunCmdAsUserB64
+	RunCmdWithRetry
+	RunCmdAsUserB64WithRetry
+	TestMessageBox
+	ExecutePOTValidationB64
+	ExecutePOTInstallationB64
+	SetErlangCookieToProp
+	RunCmdTimeOut
+	RunCmdWithRetryTimeOut
+	CreateInitialUserB64WithRetry
+	EncodeInitialUserData
+	ExecuteDMZPotVerify
+	ReadInstallationPropertyFile
+	CopyAndCleanLog
+	RunCmdWithRetryFiltered
+	HashPasswords
+	InstallSleep
+	CleanUpRabbitMQ
+	RunLBCmdWithRetry
+	RunLBCmdAsUserB64WithRetry
+	FixServiceAccountProperties
+	ReadInstallerConfigurationFile
+	CallNsisLibDBVerify
+	AuthenticateWindowsServiceAccount
+	GetLocalFQDN
+	UnhashPasswords
+	BackupFilesOnUpgrade
+	GeneratePasswords
